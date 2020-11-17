@@ -6,11 +6,13 @@ import java.awt.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.Test;
+
 class BJCardTest {
 
     BJCard bAce = new BJCard(1,3);
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getRank() {
         assertEquals(1,bAce.getRank());
     }
