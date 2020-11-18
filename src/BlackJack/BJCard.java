@@ -114,16 +114,16 @@ public class BJCard extends PCard{
         String cSuit = "";
         switch(suit){
             case 1:
-                cSuit = "S";
+                cSuit = "\u2660";
                 break;
             case 2:
-                cSuit = "H";
+                cSuit = "\u2665";
                 break;
             case 3:
-                cSuit = "D";
+                cSuit = "\u25c6";
                 break;
             case 4:
-                cSuit = "C";
+                cSuit = "\u2663";
                 break;
         }//end switch(suit){
         return cSuit;
